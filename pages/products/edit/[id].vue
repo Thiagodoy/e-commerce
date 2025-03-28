@@ -45,7 +45,7 @@
 </template>
 
 <script setup>
-import { productById, updateProduct,createProduct } from '~/service/api';
+import { productById, updateProduct,createProduct } from '~/service/product-api';
 const route = useRoute()
 const product = ref(new Object());
 const id = ref(route.params.id);

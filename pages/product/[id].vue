@@ -14,7 +14,7 @@
 </template>
 
 <script setup>
-import { productById } from '~/service/api';
+import { productById } from '~/service/product-api';
 const route = useRoute()
 const product = ref({});
 const id = ref(route.params.id)

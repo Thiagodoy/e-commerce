@@ -73,7 +73,7 @@
 
 <script setup>
 
-import { deleteProduct, seachP } from "~/service/api";
+import { deleteProduct, seachP } from "~/service/product-api";
 
 const paginatedProducts = ref([]);
 const page = ref({totalPages:0, page:0, size:10 });
