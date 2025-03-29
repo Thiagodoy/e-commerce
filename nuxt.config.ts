@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   runtimeConfig: {
     public: {
-      API_URL: 'http://api.thiagodoy.com:8080'
+      API_URL: 'https://api.thiagodoy.com'
     }
   }
 })
